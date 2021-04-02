@@ -4,6 +4,7 @@ function App() {
   return (
     <div>
       <Header />
+      <div>Coś tu jeszcze będzie</div>
     </div>
   );
 }
