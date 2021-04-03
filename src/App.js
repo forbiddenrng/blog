@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
 import Header from './components/Header'
 import About from './components/About'
+import Add from './components/Add'
 import "./App.css"
 // const About = () => <h1>O nas</h1>
 const Travels = () => <h1>Podróże</h1>
-const Add = () => <h1>Dodaj swoją podróż</h1>
+
 class App extends Component {
   render() {
     return (
